@@ -2587,7 +2587,7 @@
                         tokenizePattern: this._tokenizePattern,
                         caseSensitive: this._caseSensitive
                     });
-                    if (console.log("aftersearch"), Array.isArray(fieldNamesOrIndexFunction)) if (resources.forEach instanceof Function) resources.forEach(function(resource) {
+                    if (Array.isArray(fieldNamesOrIndexFunction)) if (resources.forEach instanceof Function) resources.forEach(function(resource) {
                         fieldNamesOrIndexFunction.forEach(function(field) {
                             search.indexDocument(resource.id, resource[field] || "");
                         });
